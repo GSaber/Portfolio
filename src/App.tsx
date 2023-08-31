@@ -23,7 +23,7 @@ function App() {
           whileInView={{ opacity: 1, y: 0, transition: { duration: 0.5 } }}
           className="p-10 flex items-center justify-between"
         >
-          <h1 className="text-xl font-burtons max-[800px]:hidden">G.SABER</h1>
+          <h1 className="text-xl font-burtons max-[800px]:hidden">G.SABEUR</h1>
           <ul className="flex items-center max-[800px]:mx-auto gap-10">
             <li>
               <div
