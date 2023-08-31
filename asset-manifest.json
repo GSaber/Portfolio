@@ -1,24 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.b1c25b3b.css",
-    "main.js": "/static/js/main.500df5ac.js",
-    "static/media/coding.png": "/static/media/coding.ec86a60e097ecb305b34.png",
-    "static/media/clouds4.png": "/static/media/clouds4.ddc93855d0b7c31f68c8.png",
-    "static/media/clouds2.png": "/static/media/clouds2.053809bbca1138961de3.png",
-    "static/media/clouds3.png": "/static/media/clouds3.8e4de7e14de220e649b2.png",
-    "static/media/Multi.otf": "/static/media/Multi.de24ad1c9080582bb6fc.otf",
-    "static/media/clouds1.png": "/static/media/clouds1.537ec4b3b574f0cd6e5c.png",
-    "static/media/dev-ed-wave.png": "/static/media/dev-ed-wave.96fe79664ed9e871bb6f.png",
-    "static/media/Burtons.otf": "/static/media/Burtons.c46a2405716f236c4a9a.otf",
-    "static/media/design.png": "/static/media/design.9e6ea8290691c7efe827.png",
+    "main.css": "./static/css/main.b1c25b3b.css",
+    "main.js": "./static/js/main.500df5ac.js",
+    "static/media/coding.png": "./static/media/coding.ec86a60e097ecb305b34.png",
+    "static/media/clouds4.png": "./static/media/clouds4.ddc93855d0b7c31f68c8.png",
+    "static/media/clouds2.png": "./static/media/clouds2.053809bbca1138961de3.png",
+    "static/media/clouds3.png": "./static/media/clouds3.8e4de7e14de220e649b2.png",
+    "static/media/Multi.otf": "./static/media/Multi.de24ad1c9080582bb6fc.otf",
+    "static/media/clouds1.png": "./static/media/clouds1.537ec4b3b574f0cd6e5c.png",
+    "static/media/dev-ed-wave.png": "./static/media/dev-ed-wave.96fe79664ed9e871bb6f.png",
+    "static/media/Burtons.otf": "./static/media/Burtons.c46a2405716f236c4a9a.otf",
+    "static/media/design.png": "./static/media/design.9e6ea8290691c7efe827.png",
     "static/media/consulting.png": "/static/media/consulting.2dc7284300c84181539e.png",
-    "static/media/code.png": "/static/media/code.f4f54b48494bb8e30d1a.png",
-    "index.html": "/index.html",
-    "main.b1c25b3b.css.map": "/static/css/main.b1c25b3b.css.map",
-    "main.500df5ac.js.map": "/static/js/main.500df5ac.js.map"
+    "static/media/code.png": "./static/media/code.f4f54b48494bb8e30d1a.png",
+    "index.html": "./index.html",
+    "main.b1c25b3b.css.map": "./static/css/main.b1c25b3b.css.map",
+    "main.500df5ac.js.map": "./static/js/main.500df5ac.js.map"
   },
-  "entrypoints": [
-    "static/css/main.b1c25b3b.css",
-    "static/js/main.500df5ac.js"
-  ]
+  "entrypoints": ["static/css/main.b1c25b3b.css", "static/js/main.500df5ac.js"]
 }
