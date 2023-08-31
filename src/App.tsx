@@ -1,7 +1,5 @@
-import { useRef } from "react";
 import { BsFillMoonStarsFill, BsSunFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
-import { SiTailwindcss } from "react-icons/si";
 import { useState } from "react";
 import "./assets/css/animation.css";
 import Hero from "./components/hero";

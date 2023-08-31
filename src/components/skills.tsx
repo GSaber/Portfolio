@@ -9,8 +9,6 @@ const Skills = () => {
   const opacity = useTransform(scrollYProgress, [0, 0.3], [0, 1]);
   const scale = useTransform(scrollYProgress, [0, 0.5], [0.5, 1]);
 
-  const x = useTransform(scrollYProgress, [0, 0.5], [300, 0]);
-
   const skills = [
     "JavaScript",
     "TypeScript",

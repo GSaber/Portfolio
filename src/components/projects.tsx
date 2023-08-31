@@ -10,8 +10,6 @@ const Projects = () => {
   const opacity = useTransform(scrollYProgress, [0, 0.3], [0, 1]);
   const scale = useTransform(scrollYProgress, [0, 0.5], [0.5, 1]);
 
-  const x = useTransform(scrollYProgress, [0, 0.3], [200, 0]);
-
   const Projects = [
     {
       Name: "Kidz School",
@@ -76,7 +74,7 @@ const Projects = () => {
             <div className="mt-140 ">
               <div className="border-4 mt-16 border-black w-60 max-[800px]:w-1/2 text-center dark:border-white">
                 <div className="bg-teal-400 text-2xl max-[800px]:text-lg  font-bold  py-6 max-[800px]:py-4 -translate-x-4 -translate-y-4 transition duration-500  hover:translate-x-0 hover:translate-y-0">
-                  <a href="#">View Project</a>
+                  <a href="/">View Project</a>
                 </div>
               </div>
               <p className="text-xl max-[800px]:text-base py-5  leading-10 text-gray-500 dark:text-white">

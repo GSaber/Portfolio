@@ -34,12 +34,12 @@ const Hero = () => {
           </h3>
           <div className="text-5xl  flex justify-center gap-10 pt-6 text-gray-600">
             <a
+              rel="noreferrer"
               href="https://www.linkedin.com/in/saber-guenaoui/"
-              target="_blank"
             >
               <AiFillLinkedin className="text-black dark:text-white" />
             </a>
-            <a href="https://github.com/GSaber" target="_blank">
+            <a rel="noreferrer" href="https://github.com/GSaber">
               <AiFillGithub className="text-black dark:text-white" />
             </a>
           </div>
