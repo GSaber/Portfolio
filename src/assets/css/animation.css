@@ -1,0 +1,75 @@
+.moveCloud {
+    animation-name : mymoveleftotoright;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 30s;
+    translate: 0 70px ;
+    opacity: 0.7;
+    position: absolute;
+  }
+  .moveCloud1 {
+    animation-name : mymoveleftotoright;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 29s;
+    translate: 0 100px ;
+    position: absolute;
+  }
+  .moveCloud2 {
+    animation-name : mymove2;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 15s;
+    translate: -0px -100px ;
+    position: absolute;
+    
+}
+.moveCloud3 {
+    animation-name : mymove3;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 20s;
+    translate: 0 -100px ;
+    position: absolute;
+    opacity: 0.8;
+    
+}
+.moveCloud4 {
+    animation-name : mymoverighttoleft;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 28s;
+    translate: -50px 200px ;
+    position: absolute;
+  }
+  .moveCloud5 {
+    animation-name : mymoverighttoleft;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 30s;
+    position: absolute;
+    translate: 0 150px ;
+    opacity: 0.8;
+    
+}
+.invert{
+    filter: invert(0.4);
+    
+}
+
+  @keyframes mymoveleftotoright {
+    from {transform: translateX(-900px);}
+    to {transform: translateX(-350px);}
+  }
+  @keyframes mymove2 {
+    from {transform: translateX(800px);}
+    to {transform: translateX(600px);}
+  }
+  @keyframes mymove3 {
+    from {transform: translateX(-1000px);}
+    to {transform: translateX(-750px);}
+  }
+  @keyframes mymoverighttoleft {
+    from {transform: translateX(800px);}
+    to {transform: translateX(350px);}
+  }
