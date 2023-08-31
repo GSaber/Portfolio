@@ -1,24 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d6400f58.css",
-    "main.js": "/portfolio/static/js/main.6506d52d.js",
-    "static/media/coding.png": "/portfolio/static/media/coding.ec86a60e097ecb305b34.png",
-    "static/media/clouds4.png": "/portfolio/static/media/clouds4.ddc93855d0b7c31f68c8.png",
-    "static/media/clouds2.png": "/portfolio/static/media/clouds2.053809bbca1138961de3.png",
-    "static/media/clouds3.png": "/portfolio/static/media/clouds3.8e4de7e14de220e649b2.png",
-    "static/media/Multi.otf": "/portfolio/static/media/Multi.de24ad1c9080582bb6fc.otf",
-    "static/media/clouds1.png": "/portfolio/static/media/clouds1.537ec4b3b574f0cd6e5c.png",
-    "static/media/dev-ed-wave.png": "/portfolio/static/media/dev-ed-wave.96fe79664ed9e871bb6f.png",
-    "static/media/Burtons.otf": "/portfolio/static/media/Burtons.c46a2405716f236c4a9a.otf",
-    "static/media/design.png": "/portfolio/static/media/design.9e6ea8290691c7efe827.png",
-    "static/media/consulting.png": "/portfolio/static/media/consulting.2dc7284300c84181539e.png",
-    "static/media/code.png": "/portfolio/static/media/code.f4f54b48494bb8e30d1a.png",
-    "index.html": "/portfolio/index.html",
-    "main.d6400f58.css.map": "/portfolio/static/css/main.d6400f58.css.map",
-    "main.6506d52d.js.map": "/portfolio/static/js/main.6506d52d.js.map"
+    "main.css": "/chat-app/static/css/main.ee10e037.css",
+    "main.js": "/chat-app/static/js/main.69cda825.js",
+    "static/media/AddAvatar.png": "/chat-app/static/media/AddAvatar.25446eba7abf62ca36be.png",
+    "index.html": "/chat-app/index.html",
+    "main.ee10e037.css.map": "/chat-app/static/css/main.ee10e037.css.map",
+    "main.69cda825.js.map": "/chat-app/static/js/main.69cda825.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6400f58.css",
-    "static/js/main.6506d52d.js"
+    "static/css/main.ee10e037.css",
+    "static/js/main.69cda825.js"
   ]
 }
