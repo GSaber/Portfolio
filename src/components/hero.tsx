@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
-const Hero = () => {
+const     Hero = () => {
   const targetRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: targetRef,
@@ -35,11 +35,15 @@ const Hero = () => {
           <div className="text-5xl  flex justify-center gap-10 pt-6 text-gray-600">
             <a
               rel="noreferrer"
+              target="blank"
               href="https://www.linkedin.com/in/saber-guenaoui/"
             >
               <AiFillLinkedin className="text-black dark:text-white" />
             </a>
-            <a rel="noreferrer" href="https://github.com/GSaber">
+            <a 
+            rel="noreferrer" 
+            target="blank"
+            href="https://github.com/GSaber">
               <AiFillGithub className="text-black dark:text-white" />
             </a>
           </div>
