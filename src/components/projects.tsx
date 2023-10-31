@@ -30,12 +30,12 @@ const Projects = () => {
         "A mini project that allow u to add books to your personal library, and select the book from your personal library to read",
     },
     {
-      Name: "Kidz School",
+      Name: "Kids School",
       Skills: ["Swift3", "Xcode", "JavaScript", "AndroidStudio"],
       Link: "",
       Image: require("../assets/images/coding.png"),
       Description:
-        "Assembled and lead a team of 8 developers to create core features and integrate third party APIs. Implemented CI/CD pipeline with Typescript type-checking, database migration, code linting and preview deploys.",
+        "A mobile application developped in native programming language(iOS/Android) that allow kids to learn Letters, Numbers, Colors, Basic Shapes, Animals, Dinosaurs, with sounds and the ability to have tests at the end of each course with a displayble score and a competitive Leaderboard",
     },
     {
       Name: "Pet-vet",
