@@ -12,6 +12,24 @@ const Projects = () => {
 
   const Projects = [
     {
+      Name: "Chatz",
+      Skills: ["React", "HTML", "SCSS", "JavaScript","TypeScript"],
+      Link: "https://gsaber.github.io/chat-app/#/register",
+      Code:"https://github.com/GSaber/chat-app",
+      Image: require("../assets/images/coding.png"),
+      Description:
+        "A real-time chat application that allow u to create an account and search for an existant user and be able to have a conversation with the ability to send photos",
+    },
+    {
+      Name: "Books Library",
+      Skills: ["React", "HTML", "CSS3", "JavaScript","TypeScript"],
+      Link: "https://gsaber.github.io/Books-Library/",
+      Code:"https://github.com/GSaber/Books-Library",
+      Image: require("../assets/images/coding.png"),
+      Description:
+        "A mini project that allow u to add books to your personal library, and select the book from your personal library to read",
+    },
+    {
       Name: "Kidz School",
       Skills: ["Swift3", "Xcode", "JavaScript", "AndroidStudio"],
       Link: "",
@@ -72,9 +90,17 @@ const Projects = () => {
               ))}
             </div>
             <div className="mt-140 ">
+              {project.Link? <>
+              
               <div className="border-4 mt-16 border-black w-60 max-[800px]:w-1/2 text-center dark:border-white">
                 <div className="bg-teal-400 text-2xl max-[800px]:text-lg  font-bold  py-6 max-[800px]:py-4 -translate-x-4 -translate-y-4 transition duration-500  hover:translate-x-0 hover:translate-y-0">
-                  <a href="/">View Project</a>
+                  <a href={project.Link} target="_blank" rel="noreferrer">View Project</a>
+                </div>
+              </div>
+              </> : "" }
+              <div className="border-4 mt-16 border-black w-60 max-[800px]:w-1/2 text-center dark:border-white">
+                <div className="bg-teal-400 text-2xl max-[800px]:text-lg  font-bold  py-6 max-[800px]:py-4 -translate-x-4 -translate-y-4 transition duration-500  hover:translate-x-0 hover:translate-y-0">
+                  <a href={project.Code} target="_blank" rel="noreferrer">View Code</a>
                 </div>
               </div>
               <p className="text-xl max-[800px]:text-base py-5  leading-10 text-gray-500 dark:text-white">
