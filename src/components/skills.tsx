@@ -10,16 +10,17 @@ const Skills = () => {
   const scale = useTransform(scrollYProgress, [0, 0.5], [0.5, 1]);
 
   const skills = [
+    "React",
+    "Next.js",
+    "Node.js",
+    "HTML5",
+    "CSS3",
+    "SASS",
     "JavaScript",
     "TypeScript",
-    "React",
-    "Node.js",
-    "HTML",
-    "CSS",
     "Tailwind CSS",
     "Git",
     "Github",
-    "Next.js",
   ];
   return (
     <motion.section

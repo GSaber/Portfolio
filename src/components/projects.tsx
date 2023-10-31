@@ -32,10 +32,10 @@ const Projects = () => {
     {
       Name: "Kids School",
       Skills: ["Swift3", "Xcode", "JavaScript", "AndroidStudio"],
-      Link: "",
+      Code: "https://github.com/GSaber/Kids-School",
       Image: require("../assets/images/coding.png"),
       Description:
-        "A mobile application developped in native programming language(iOS/Android) that allow kids to learn Letters, Numbers, Colors, Basic Shapes, Animals, Dinosaurs, with sounds and the ability to have tests at the end of each course with a displayble score and a competitive Leaderboard",
+        "An educational mobile application developped in native programming language(iOS/Android) that allow kids to learn Letters, Numbers, Colors, Basic Shapes, Animals, Dinosaurs, with sounds and the ability to have tests at the end of each course with a displayble score and a competitive Leaderboard",
     },
     {
       Name: "Pet-vet",
