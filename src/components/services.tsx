@@ -43,14 +43,9 @@ const Services = () => {
             Clean Code
           </h3>
           <p className="text-lg text-gray-500 font-semibold pb-2 dark:text-white max-[800px]:text-base">
-            Creating smooth app with cleann code
+            Creating smooth app with cleann code(Annotation/Commentary)
           </p>
-          <p className="text-lg text-gray-500 font-semibold pb-2 dark:text-white max-[800px]:text-base">
-            Annotation
-          </p>
-          <p className="text-lg text-gray-500 font-semibold pb-2 dark:text-white max-[800px]:text-base">
-            commentary
-          </p>
+         
         </div>
         <div className="flex-1 text-center shadow-2xl dark:shadow-gray-700 p-10 rounded-xl my-10 transition duration-400 ease-in-out hover:-translate-y-1 hover:scale-110">
           <img
