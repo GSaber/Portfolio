@@ -75,9 +75,7 @@ const Skills = () => {
                 I started playing with computers when I was 11 years-old. Since
                 then I have been tinkering with all sorts of technologies that
                 in some way or another led me to work on music, photography,
-                sound engineering, electric engineering, automation, video
-                production, feature film post-production, VR games, and 3D
-                sound.
+                automation, 2D/3D/VR games.
               </p>
             </motion.div>
           </div>
