@@ -50,7 +50,7 @@ const Projects = () => {
       Link: "",
       Image: require("../assets/images/coding.png"),
       Description:
-        "Assembled and lead a team of 8 developers to create core features and integrate third party APIs. Implemented CI/CD pipeline with Typescript type-checking, database migration, code linting and preview deploys.",
+        "Pet-vet Allow u to make an appointment quickly with your veterinary! , u can make ur choice depending on Areas,cities,Specilaity ...",
     },
   ];
   return (
